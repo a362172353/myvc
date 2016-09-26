@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >陈家宇</h1>
+                <h4 id="persona-tag" >web / webapp / 微信开发</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">陈家宇</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">专科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">广东肇庆学院</span></li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2014</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">183xxxxx792</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">362172353@qq.com</span></li>
+                    <li>
+                        <label class="left-label">个人主页</label><span class="label-value">a362172353.github.io</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/a362172353</span></li>
+                </ul>
+            </div>
+<!--             <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">PHP</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">html/css</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Javascript</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                </ul>
+            </div> -->
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">前端</label><span class="label-value">jQuery、Bootstrap、angular、zepto</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">其它</label><span class="label-value">Git、sass、lass</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.jpg" alt="">
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>肇庆学院 - 计算机应用技术（专科）2011-2014</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">科进团队开发经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>负责开发项目</h3>
+                        <p>pc端页面制作</p>
+                        <p>微信场景开发</p>
+                        <p>web移动端开发</p>
+                        <p>微信公众号开发</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>美腿瘦身（未上线Hybrid app）</h3>
+                        <p>项目简介：这个项目的主题是为客户提供各种减肥、美腿、瘦腰、健身等的方法和资讯。使用的是混合开发的模式进行app的开发，本人负责的是web页面的制作。
+开发工具：Hbuilder、Chrome、Node、photoshop、APICloud、GIT
+责任描述：1.运用rem相对单位、百分比和媒体查询等技术，实现响应式布
+局、运用h5语义化标签完成页面结构和布局设计；
+2.运用AngularJs里的http方法和ng-repeat完成数据在view层的展示；
+3.运用AngularJs里的ng-model方法获取关键词实现数据的双向绑定；
+4.运用swiper完成页面上轮播图的效果；
+5.捕捉客户触摸屏幕事件并作出相应的页面切换或完成页面刷新效果。
+难点：使用AngularJs时对dom的操作不够灵活。运用swiper和ionic插件去实现需要操作dom的效果。
+</p>
+                    </li>
+                    <li>
+                        <h3>逸贝网（web端）</h3>
+                        <p>项目简介：逸贝网是大型实体专卖店为基础的一站式体育用品网上购物商城。本项目是小组项目，本人负责的web端的部分页面的制作、表单验证以及购物车等部分常见功能的实现。
+开发工具：Hbuilder、Chrome、Node、photoshop、GIT
+责任描述：1.根据设计图完成web页面制作，实现图片滑动轮播功能；
+2.运用正则验证登录注册，并调用数据库实现客户注册登录功能；
+3.使用localStorage以及cookie缓存机制将部分数据缓存在本地；
+4.使用gulp技术合并并使用gulp技术合并、压缩文件、减少http请求；
+5.持续优化前端体验，优化代码并保持良好的适配性；
+难点：用户名信息等数据直接存储在localStorage时不好管理。对这些数据运用JSON.stringify方法对数据进行处理后存储。获取时用JSON.parse方法处理之后就可以拿到想要的数据。
+</p>
+                    </li>
+                    <li>
+                        <h3>爸妈搜 （微信端）</h3>
+                        <p>项目简介：由于此项目的pc端由同一项目团队完成，对于各方面数据信息比较熟悉，完成项目效率较快。
+开发工具：Hbuilder、Chrome、Node、photoshop、GIT
+责任描述：1. 根据UI设计的效果完成微信端静态页面搭建； 
+2. 运用app.js框架实现页面部分效果；
+3. 菜单栏的滑入滑出设计；
+4. 运用ajax获取后台数据并展示在view层；
+5. 适配不同大小的屏幕、bug的修改以及代码优化。
+难点：微信场景开发，要处理各种型号的屏幕适配。布局的时候用百分比、rem相对单位、媒体查询来控制，以便适应不同大小的窗口。
+</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                <ul class="experience-list">
+                <li>
+                    <p>
+                    热爱技术，多年在科进开发团队的工作学习让我受益匪浅。
+                    </p>
+                </li> 
+                <li>
+                    <p>
+                    永远对新技术保持热忱，喜欢通过Google解决问题时的感觉。                   		
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    烹饪、读书、电影是生活的调味品，也是必需品。              		
+                    </p>
+                </li>      
+                <li>
+                    <p>
+                    感谢您花时间阅读我的简历，期待能有机会和您共事。              		
+                    </p>
+                </li>           
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
